@@ -2,10 +2,10 @@
 title: PSX-Wiki
 description: Homepage
 published: true
-date: 2026-04-17T12:45:55.684Z
+date: 2026-04-17T13:09:37.557Z
 tags: 
 editor: markdown
-dateCreated: 2026-04-17T00:01:44.742Z
+dateCreated: 2026-04-17T13:09:35.004Z
 ---
 
 ## Welcome to the PSX Wiki!

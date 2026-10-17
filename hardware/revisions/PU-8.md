@@ -2,10 +2,10 @@
 title: PlayStation (PU-8)
 description: 
 published: true
-date: 2026-04-17T11:45:31.058Z
+date: 2026-04-17T13:09:46.535Z
 tags: hardware, pu-8
 editor: markdown
-dateCreated: 2026-04-17T11:45:31.058Z
+dateCreated: 2026-04-17T12:29:11.730Z
 ---
 
 # PU-8

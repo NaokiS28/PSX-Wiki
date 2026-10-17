@@ -2,7 +2,7 @@
 title: PS1 Motherboard Revisions
 description: 
 published: true
-date: 2026-04-17T11:50:33.544Z
+date: 2026-04-17T13:09:41.191Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-17T11:50:33.544Z

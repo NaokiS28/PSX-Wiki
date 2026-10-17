@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2026-04-17T13:09:34.878Z
+tags: 
+editor: markdown
+dateCreated: 2026-04-17T12:40:56.712Z
+---
+
 # PSX-Wiki
 
 A community-driven technical reference wiki for the Sony PlayStation (PSX/PS1), covering hardware architecture, development tools, file formats, and SDK documentation.
