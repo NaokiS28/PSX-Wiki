@@ -12,6 +12,8 @@ dateCreated: 2026-04-17T12:40:56.712Z
 
 A community-driven technical reference wiki for the Sony PlayStation (PSX/PS1), covering hardware architecture, development tools, file formats, and SDK documentation.
 
+The live version of the site can be found at [psx.nsaito.co.uk](psx.nsaito.co.uk)
+
 ---
 
 ## Contents
