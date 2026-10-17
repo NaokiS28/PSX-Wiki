@@ -2,14 +2,14 @@
 title: Contributions
 description: 
 published: true
-date: 2026-10-17T09:00:36.516Z
+date: 2026-10-17T09:04:02.537Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-17T09:00:36.516Z
 ---
 
 # Contributions
-Contributions are welcome! Currently we are only accepting pull requests from our [GitHub repository](/https://github.com/NaokiS28/PSX-Wiki/tree/main), but we are hoping to allow direct editing in future.
+Contributions are welcome! Currently we are only accepting pull requests from our [GitHub repository](https://github.com/NaokiS28/PSX-Wiki/tree/main), but we are hoping to allow direct editing in future.
 When submitting a PR, please use the following guidelines where possible:
 * Verify claims against hardware tests, SDK documentation, or trusted sources - Emulators are *not* a reliable source of information.
 * Cite sources where possible (unverified information should be clearly marked) - Please do not cite 'public knowledge' or 'for obvious reasons' if it isn't clear why.
