@@ -2,7 +2,7 @@
 title: Arcade Systems
 description: Some arcade system boards were based on the PlayStation
 published: true
-date: '2026-11-06T01:11:38.497Z'
+date: '2026-11-06T01:16:16.153Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-06T01:11:38.497Z'
