@@ -2,7 +2,7 @@
 title: Konami System 573
 description: ''
 published: true
-date: '2026-11-06T01:04:56.956Z'
+date: '2026-11-06T01:05:28.350Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-06T01:04:56.956Z'
@@ -10,10 +10,7 @@ dateCreated: '2026-11-06T01:04:56.956Z'
 
 # Konami System 573
 
-
-# Konami System 573
-
-The System 573 is a PlayStation-based system used in a number of Konami arcade
+The Konami System 573 is a PlayStation-based system used in a number of Konami arcade
 games from the late 90s and early 2000s, most notably Dance Dance Revolution and
 other titles from the Bemani series of rhythm games.
 
