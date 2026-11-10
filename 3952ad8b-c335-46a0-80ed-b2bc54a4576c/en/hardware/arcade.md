@@ -2,7 +2,7 @@
 title: Arcade Systems
 description: Some arcade system boards were based on the PlayStation
 published: true
-date: '2026-11-06T01:16:38.093Z'
+date: '2026-11-10T17:48:22.601Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-06T01:11:38.497Z'
@@ -10,6 +10,7 @@ dateCreated: '2026-11-06T01:11:38.497Z'
 
 # Arcade Systems
 
+# Arcade Systems Overview
 The following arcade PCBs are known to be based on PlayStation hardware:
 
 | Manufacturer | Board                            | CPU clock | GPU       | RAM     | VRAM   | Additional CPUs                            | Audio                                                         | Storage                                                    |
