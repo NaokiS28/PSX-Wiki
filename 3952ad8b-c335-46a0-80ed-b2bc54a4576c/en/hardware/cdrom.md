@@ -2,8 +2,9 @@
 title: PlayStation 1 CD-ROM Guide
 description: Guide to help build a disc image to boot on PS1
 published: true
-date: '2026-11-12T14:17:13.668Z'
-tags: []
+date: '2026-11-12T14:18:46.034Z'
+tags:
+  - hardware
 editor: markdown
 dateCreated: '2026-11-12T13:47:26.467Z'
 ---
