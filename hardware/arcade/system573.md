@@ -2,7 +2,7 @@
 title: Konami System 573
 description: ''
 published: true
-date: '2026-11-06T01:05:28.350Z'
+date: '2026-11-12T14:44:23.074Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-06T01:04:56.956Z'
@@ -3924,4 +3924,3 @@ Some information has been aggregated from the following sources:
 
 Huge thanks to the Rhythm Game Cabs Discord server and everyone who provided
 valuable information about the 573!
-
