@@ -2,7 +2,7 @@
 title: Controllers
 description: ''
 published: true
-date: '2026-11-02T23:01:36.851Z'
+date: '2026-11-12T14:47:03.592Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-02T23:01:36.851Z'
@@ -81,4 +81,3 @@ When writing
 5AE3h - [Jogcon](jogcon.md)
 5AE8h - [Keyboard/Sticks](sticks.md)
 5AF3h - [Config Mode](config-mode.md)
-
