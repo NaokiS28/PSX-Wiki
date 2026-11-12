@@ -1,12 +1,14 @@
 ---
 title: PS1 Motherboard Revisions
-description: 
+description: ''
 published: true
-date: 2026-04-17T13:09:41.191Z
-tags: 
+date: '2026-04-17T13:09:41.191Z'
+tags: []
 editor: markdown
-dateCreated: 2026-04-17T11:50:33.544Z
+dateCreated: '2026-04-17T11:50:33.544Z'
 ---
+
+# PS1 Motherboard Revisions
 
 # Motherboard Revisions
 - [PU-7](/hardware/revisions/PU-7)
