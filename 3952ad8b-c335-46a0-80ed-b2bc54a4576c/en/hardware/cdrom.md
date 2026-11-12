@@ -1,16 +1,14 @@
 ---
-title: CD-ROM Guide
+title: PlayStation 1 CD-ROM Guide
 description: Guide to help build a disc image to boot on PS1
 published: true
-date: '2026-11-12T13:54:20.165Z'
+date: '2026-11-12T14:17:13.668Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-12T13:47:26.467Z'
 ---
 
-# CD-ROM Guide
-
-# PlayStation  1 CD-ROM Guide
+# PlayStation 1 CD-ROM Guide
 
 ## Brief overview
 Initially the PlayStation's disc format was developed for audio (and shares a lot of similarities), \
@@ -37,7 +35,7 @@ In order to make a disc bootable by the PlayStation, several things are expected
 Track 1 **must** be an [ISO9660](https://en.wikipedia.org/wiki/ISO_9660) `data` track, and contains `license data` and your `executable`. \
 Every track after that can be used in any combination you see fit, as per your games requirements.
 
-### License data
+## License data
 This exists in the ISO9960 "system area", which are the first 16 sectors reserved for platform specific data.
 - Consists of a [region-specific string](https://psx-spx.consoledev.net/cdromformat/#cdrom-protection-scex-strings) and the PlayStation logo in .tmd format
 
@@ -52,7 +50,7 @@ The following table shows which region consoles will boot without the license.
 
 Generally it makes sense to include Japanese license data, or provide both Japanese and PAL images.
 
-### Executable
+## Executable
 There are 2 ways to have your executable start from disc:
 
 ###### auto-boot
@@ -86,7 +84,7 @@ _TCB and EVENT are irrelevant when not using BIOS thread/event APIs._
 > ℹ️ **NOTE**: Executable name can be anything, doesn't have to be SLUS_xxx.xx or similar. \
 > Emulators and ODEs may display the executable name as game name.
 
-#### Limitations
+## Limitations
 Certain limitations exist for your file and folder structures, as the PlayStation BIOS is _known to contain some bugs_ that may lead to crashes otherwise.
 
 Your file and folder names must be a maximum of 16 characters long.
@@ -104,7 +102,7 @@ If track 1 is the only track, at least 1-2MB of padding must be added at the end
 
 > ℹ️ **NOTE**: Some authoring tools may not provide a way to guarantee this
 
-#### Layout
+## Layout
 The order files appear physically on the disc is important, to minimize seek times. \
 The PlayStation  uses [CLV](https://en.wikipedia.org/wiki/Constant_linear_velocity), so read speed is *not* affected by file location.
 
@@ -113,14 +111,14 @@ The PlayStation  uses [CLV](https://en.wikipedia.org/wiki/Constant_linear_veloci
 
 In some cases where you share data between different sections of your game, it might be best to have duplicate shared objects closer together rather than having to jump back and forth between files and folders.
 
-### Image formats
+## Image formats
 There are several image formats you can use to create your disc. \
 If you plan to use it on real hardware the best option is `.bin/.cue`, followed by `.iso` (if you do _not_ require CD-XA use). \
 For emulation there are other (more compressed) formats available.
 
 The following lists will go over all the differences and details.
 
-#### CUE <a name="cuesheets" id="cuesheets"></a>
+### CUE <a name="cuesheets" id="cuesheets"></a>
 A cuesheet informs (in a human readable format), where your data lives on a disc, and what it contains (_table of contents_). \
 It's a definition of the `Tracks` we spoke about earlier, and what each of them contains.
 
@@ -191,7 +189,7 @@ You can keep counting the lengths up together, to add as many tracks as you need
 You can expand your track data with additional information like `TITLE` and `PERFORMER`, but they are not required for the PS1. \
 More information can [be found here](https://kodi.wiki/view/Cue_sheets#Cue_Sheet_Commands).
 
-#### BIN
+### BIN
 Supported by all emulators and ODEs, but requires third-party burning tools. 
 
 > ℹ️ **NOTE**: make sure when creating a disc to load/burn the `.cue`, **not** the first track `.iso/.bin`
@@ -200,7 +198,7 @@ Supported by all emulators and ODEs, but requires third-party burning tools.
   - Full mode2 and XA-ADPCM support
   - Requires conversion from .iso or specialized tools (mkpsxiso, Redux Lua API etc.)
 
-#### ISO
+### ISO
 Supported by Redux and recent versions of DuckStation, but not by any ODEs (yet).
 
 `.iso` using 2048-byte mode1 sectors:
@@ -211,7 +209,7 @@ Supported by Redux and recent versions of DuckStation, but not by any ODEs (yet)
     - Smaller than an equivalent .bin since no ECC data is stored in the image
   - Can be burned natively on any OS without additional software
 
-#### CHD
+### CHD
 Generally supported by emulators, as it was originally created for use with MAME, but not by ODEs nor burning tools.
 
 `.chd` (Compressed Hunks of Data):
