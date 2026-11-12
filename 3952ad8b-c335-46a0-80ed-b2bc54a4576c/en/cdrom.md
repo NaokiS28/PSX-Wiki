@@ -1,8 +1,8 @@
 ---
 title: CD-ROM Guide
-description: Guide to help build your own disc images to boot on a PS1
+description: Guide to help build a disc image to boot on PS1
 published: true
-date: '2026-11-12T13:47:26.467Z'
+date: '2026-11-12T13:51:59.499Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-12T13:47:26.467Z'
