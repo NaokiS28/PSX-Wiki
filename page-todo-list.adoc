@@ -1,0 +1,42 @@
+---
+title: Page ToDo list
+description: ''
+published: true
+date: '2026-11-23T23:53:45.476Z'
+tags: []
+editor: asciidoc
+dateCreated: '2026-11-23T23:53:45.476Z'
+---
+
+= Page ToDo list
+:naoki: Naoki Saito
+:spicy: spicyjpeg
+:rhys: TheRhys
+:kakhoofd: kakhoofd
+
+:todo: Not started
+:started: In progress
+:review: Awaiting review
+:done: Completed
+
+== PS1
+[%header,format=csv,separator=;]
+|===
+Page; Status; Author; Comments
+link:/hardware/cdrom[CD-ROM Image Guide]; {done}; {kakhoofd};
+CD-ROM Overview; {todo}; ;
+CD-ROM Registers; {todo}; ;
+GPU Overview; {todo}; ;
+GPU Registers; {todo};;
+GPU Commands; {todo};;
+|===
+
+== Arcade
+[%header,format=csv,separator=;]
+|===
+Page; Status; Author; Comments
+link:/hardware/arcade[Arcade Overview]; {review}; {spicy}, {naoki};
+link:/hardware/arcade/system573[Konami System 573]; {review};{spicy}, {naoki};
+Konami GV999; {todo}; ;
+Sony ZNx; {todo}; ;
+|===
