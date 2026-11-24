@@ -2,7 +2,7 @@
 title: Arcade Systems
 description: Some arcade system boards were based on the PlayStation
 published: true
-date: '2026-11-12T14:25:37.919Z'
+date: '2026-11-24T23:58:06.983Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-06T01:11:38.497Z'
@@ -17,7 +17,7 @@ The following arcade PCBs are known to be based on PlayStation hardware:
 | Konami       | GV                               |    33 MHz | v0        |    2 MB |   1 MB |                                            | SPU, CD-DA                                                    | SCSI CD-ROM, optional flash module (`PWB402610`)           |
 | Konami       | GQ                               |    33 MHz | v1        |    4 MB |   2 MB | 68000, TMS57002                            | 2x Konami 054539 PCM (no SPU)                                 | SCSI hard drive                                            |
 | Konami       | [System 573](/hardware/arcade/system573) |    33 MHz | v2        |    4 MB |   2 MB | H8/3644                                    | SPU, CD-DA, optional Micronas MAS3507D MP3 (`GX894-PWB(B)A`)  | Internal flash, optional ATAPI CD-ROM, PCMCIA flash cards  |
-| Konami       | Twinkle System                   |    33 MHz | v2        |    4 MB |   2 MB | Optional 68000 (`TWINKLE/SPU`), DVD player | SPU, optional Ricoh RF5C400 PCM (`TWINKLE/SPU`)               | SCSI CD-ROM, IDE hard drive (`TWINKLE/SPU`), unused floppy |
+| Konami       | [Twinkle System](/hardware/arcade/twinkle)                   |    33 MHz | v2        |    4 MB |   2 MB | Optional 68000 (`TWINKLE/SPU`), DVD player | SPU, optional Ricoh RF5C400 PCM (`TWINKLE/SPU`)               | SCSI CD-ROM, IDE hard drive (`TWINKLE/SPU`), unused floppy |
 | Namco        | System 10                        |    50 MHz | v2        |   16 MB |   2 MB |                                            | SPU, optional Sanyo LC82310 MP3 (`MEM(P3) PCB`)               | Game-specific mask ROM/flash module, optional ATAPI CD-ROM |
 | Sony         | COH-100                          |    33 MHz | v1        |    4 MB |   2 MB | Provided by manufacturer PCB (see below)   | Provided by manufacturer PCB (see below, has unpopulated SPU) | Provided by manufacturer PCB (see below)                   |
 | Sony         | COH-110                          |    33 MHz | v2        |    4 MB |   2 MB | Provided by manufacturer PCB (see below)   | Provided by manufacturer PCB (see below, no SPU)              | Provided by manufacturer PCB (see below)                   |
