@@ -2,8 +2,9 @@
 title: JAMMA / JVS
 description: The Japan Amusement Machine and Marketing Association standards
 published: true
-date: '2026-11-24T23:28:08.594Z'
-tags: []
+date: '2026-11-24T23:30:03.878Z'
+tags:
+  - arcade
 editor: markdown
 dateCreated: '2026-11-24T23:28:08.594Z'
 ---
