@@ -2,7 +2,7 @@
 title: JAMMA / JVS
 description: The Japan Amusement Machine and Marketing Association standards
 published: true
-date: '2026-11-24T23:30:03.878Z'
+date: '2026-11-24T23:58:46.490Z'
 tags:
   - arcade
 editor: markdown
@@ -13,7 +13,7 @@ dateCreated: '2026-11-24T23:28:08.594Z'
 
 The **Japan Amusement Machine and Marketing Association** (commonly known as JAMMA) standards are set of standards which define how a arcade video game PCB/System should interface to a JAMMA compliant cabinet, including the video signal levels, pinouts of connectors and power requirements.
 
-Some arcade boards based on the PlayStation used either JAMMA, JVS, both or neither in the case of the [Konami Twinkle](/hardware/arcade/twinkle.md).
+Arcade boards based on the PlayStation used either JAMMA, JVS, both or neither in the case of the [Konami Twinkle](/hardware/arcade/twinkle.md).
 
 ## JAMMA
 Originally released in 1985, this specification gave rise to 'JAMMA' compliant arcade cabinets and PCBs, allowing an operator to easily change the game within a cabinet by swapping out the game PCB. This original specification defined the 56-way edge connector physical dimensions and electrical signals used to interface to the arcade cabinet. 
