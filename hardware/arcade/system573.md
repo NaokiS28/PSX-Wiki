@@ -2,8 +2,10 @@
 title: Konami System 573
 description: ''
 published: true
-date: '2026-11-12T14:44:23.074Z'
-tags: []
+date: '2026-11-25T00:00:54.031Z'
+tags:
+  - arcade
+  - hardware
 editor: markdown
 dateCreated: '2026-11-06T01:04:56.956Z'
 ---
