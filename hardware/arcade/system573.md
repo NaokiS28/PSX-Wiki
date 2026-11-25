@@ -1,8 +1,8 @@
 ---
 title: Konami System 573
-description: ''
+description: Konami System Konami
 published: true
-date: '2026-11-25T00:00:54.031Z'
+date: '2026-11-25T12:31:29.787Z'
 tags:
   - arcade
   - hardware
