@@ -2,7 +2,7 @@
 title: Konami System 573
 description: Konami System Konami
 published: true
-date: '2026-11-25T12:31:29.787Z'
+date: '2026-11-26T14:33:58.680Z'
 tags:
   - arcade
   - hardware
@@ -11,6 +11,16 @@ dateCreated: '2026-11-06T01:04:56.956Z'
 ---
 
 # Konami System 573
+
+::block-infobox{name="System 573" image="https://psx.nsaito.co.uk/_files/hardware/images/system-573-black-and-blue-01.png" imageCaption="A 'black and blue' 573"}
+```yaml
+Type: Arcade
+Game Media: CD-ROM, PCMCIA Flash, Internal 16MB Flash
+Inputs: JAMMA+, JVS
+Audio output: Mono (JAMMA), Stereo
+Video output: JAMMA+, 15KHz (0.7Vpp)
+```
+::
 
 The Konami System 573 is a PlayStation-based system used in a number of Konami arcade
 games from the late 90s and early 2000s, most notably Dance Dance Revolution and
